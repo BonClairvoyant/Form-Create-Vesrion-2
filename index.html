@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Sign Up / Login Form</title>
+  </head>
+  <body>
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <form class="cta-form" action="#">
+              <h1 class="cta-heading">Sign in to experience our services</h1>
+
+              <div>
+                <label for="email">Email address</label>
+                <input id="email" type="email" autofocus required />
+              </div>
+
+              <div class="pass">
+                <label for="password" class="pass">Password</label>
+                <input
+                  id="password"
+                  type="password"
+                  autocomplete="current-password"
+                  autofocus
+                  required />
+              </div>
+
+              <button class="btn btn--form" type="submit">Continue</button>
+              <p class="form__text">
+                <a href="#" class="form__link">Forgot your Password</a>
+              </p>
+
+              <p class="form__text">
+                <a class="form__link" href="./" id="linkCreateAccount"
+                  >Don't have an account? Create account</a
+                >
+              </p>
+            </form>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Client enjoying our service"></div>
+
+            <form class="cta-form form--hidden" action="#">
+              <h1 class="cta-heading">Get your first month free!</h1>
+              <p class="cta-text">
+                Get a first-hand experience of our services, on us for the first
+                month!
+              </p>
+              <div>
+                <label for="full-name">Full Name</label>
+                <input id="full-name" type="text" autofocus required />
+
+                <p class="name-constraint">Please fill out this field.</p>
+              </div>
+
+              <div>
+                <label for="email">Email address</label>
+                <input id="email" type="email" autofocus required />
+              </div>
+
+              <div class="pass">
+                <label for="password" class="pass">Password</label>
+                <input
+                  id="password"
+                  type="password"
+                  autocomplete="current-password"
+                  autofocus
+                  required />
+                <p class="password-constraints">
+                  Can be long and crazy as you like!
+                </p>
+              </div>
+
+              <button class="btn btn--form">Sign up now</button>
+            </form>
+          </div>
+
+          <div
+            class="cta-img-box"
+            role="img"
+            aria-label="Client enjoying our service"></div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
